@@ -3,6 +3,8 @@ MySQL_STR_GET_EXPLODE_POS_STRING
 
 MySQL function that explode string and return portion identified by index (positive or negative).
 
+<pre>
+<code>
 -- 
 -- USAGE EXAMPLE
 -- 
@@ -96,3 +98,5 @@ SELECT STR_GET_EXPLODE_POS_STRING( `test`, '-', -2 ) FROM `explode`;
 --
 -- etc.
 -- 
+</code>
+</pre>
