@@ -1,16 +1,16 @@
 -- 
 -- Projectname:   MySQL FUNCTION STR_GET_EXPLODE_POS_STRING
 -- Version:       1.0
--- Author:        Radovan Janjic <rade@it-radionica.com>
+-- Author:        Radovan Janjic <hi@radovanjanjic.com>
 -- Last modified: 27 09 2013
 -- Copyright (C): 2013 IT-radionica.com, All Rights Reserved
 --
 -- ------------------------------------------------------------------------------------
 -- 
--- string STR_GET_EXPLODE_POS_STRING(x VARCHAR(21845), delim VARCHAR(255), pos INT);
--- str		- String to be exploded
--- delim	- Delimiter
--- pos		- Position in string (1, 2 ... -1, -2)
+-- string STR_GET_EXPLODE_POS_STRING(str VARCHAR(21845), delim VARCHAR(255), pos INT);
+-- @str		- String to be exploded
+-- @delim	- Delimiter
+-- @pos		- Position in string (1, 2 ... -1, -2)
 -- 
 
 DROP FUNCTION IF EXISTS STR_GET_EXPLODE_POS_STRING;
